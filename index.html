@@ -3,9 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Weather Updates Pro.</title>
 </head>
 <body>
-  
+  <div class="container">
+    <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Search for a location...">
+        <button id="search-btn">Search</button>
+    </div>
+    <div class="weather-card">
+        <div class="weather-info">
+            <h1 id="city">City, Country</h1>
+            <p id="date">Date</p>
+            <p id="temperature">Temperature °C</p>
+            <p id="condition">Weather Condition</p>
+        </div>
+        <div class="weather-icon">
+            <img id="weather-icon" src="" alt="Weather Icon">
+        </div>
+    </div>
+</div>
+<script src="app.js"></script>
 </body>
 </html>
